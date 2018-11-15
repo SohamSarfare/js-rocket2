@@ -26,7 +26,7 @@ console.log('Hello there General Kenobi');
 //Changing Colour of div
 function doCoolStuff(){
 	var currentClassName = document.getElementById('cool').className;
-	if(currentClassName=='colour'){
+	if(currentClassName==='colour'){
 		document.getElementById('cool').className = 'colour green';
 	}
 	else {
