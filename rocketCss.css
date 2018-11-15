@@ -35,9 +35,7 @@
 	left: 0px;
 	background-color: green;
 }
-.flying {
-	bottom: 1000px;
-}
+
 .state1, .state2, .state3, .state4, .state5 {
 	display: none;
 }
@@ -74,7 +72,12 @@
 	height: 100px;
 	background-color: blue;
 }
-.body-state3 .rocket{	
+.body-state3 .rocket{
+	bottom: 1000px;
+	transition: bottom 10000ms;
+}
+.body-state4 .rocket{
+	bottom: 10000000px;
 	transition: bottom 10000ms;
 }
 .body-state5 .rocket{	

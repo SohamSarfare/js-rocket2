@@ -11,7 +11,7 @@ function changeSeq(state){
 			i=i-1;
 			if(i<0){
 				changeSeq(3);
-				document.getElementById('rocket').className='rocket flying';
+				
 				i = 10;
 				}
 			}, 500);	
