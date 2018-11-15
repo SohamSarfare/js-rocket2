@@ -2,3 +2,12 @@
 body {
 	background-color: rgba(172,172,172,1.00);
 }
+.colour {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(243,40,43,1.00);
+	transition: background-color 1s;
+}
+.green {
+	background-color: rgba(29,255,76,1.00);
+}

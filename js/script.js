@@ -17,5 +17,20 @@ console.log('Hello there General Kenobi');
 					this.isTurnedOn = false;
 				}
 
+			},
+			fly: function(){
+				alert("Fly you fools!!")
 			}
 		};
+
+//Changing Colour of div
+function doCoolStuff(){
+	var currentClassName = document.getElementById('cool').className;
+	if(currentClassName=='colour'){
+		document.getElementById('cool').className = 'colour green';
+	}
+	else {
+		document.getElementById('cool').className = 'colour';
+	}
+	
+}
