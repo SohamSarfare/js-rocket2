@@ -77,7 +77,7 @@
 	transition: bottom 10000ms;
 }
 .body-state4 .rocket{
-	bottom: 10000000px;
+	bottom: 1000px;
 	transition: bottom 10000ms;
 }
 .body-state5 .rocket{	
