@@ -15,7 +15,7 @@ console.log('Hello there General Kenobi');
 					this.isTurnedOn = true;
 				} else{
 					this.isTurnedOn = false;
-				};
+				}
 
 			}
 		};
